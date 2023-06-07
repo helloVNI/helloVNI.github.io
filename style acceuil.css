@@ -1,0 +1,74 @@
+/* Réinitialisation des styles par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+}
+
+header {
+  font-size: x-large;
+  background-color: #000000;
+  color: #1E90FF;
+  padding: 25px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #1E90FF;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  background-color: #1E90FF;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #1E90FF;
+  margin-bottom: 10px;
+}
+
+.video-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.video {
+  background-color: #1E90FF;
+  padding: 10px;
+  text-align: center;
+}
+
+.video img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.video h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
